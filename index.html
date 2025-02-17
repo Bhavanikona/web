@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Prospres Overseas</title>
+    <style>
+        nav {
+            background-color: rgb(33, 30, 30);
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .bag {
+            background-image: url("../sea.jpg");
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .shde {
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pop {
+            background-color: rgb(156, 71, 32);
+            color: black;
+            border: 2px solid white;
+            width: 450px;
+            height: 200px;
+            text-align: center;
+          
+        }
+
+        .pop input
+         {
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: transparent;
+            color: white;
+           
+        }
+
+        .bagr {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+        }
+
+        .foot {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .footr {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(155, 149, 149);
+            padding: 30px;
+        }
+
+        .row2 {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            padding: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+        }
+
+        .vertical-line {
+            border-left: 2px solid black;
+            height: auto;
+        }
+
+        .center-button {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div>
+                <span>
+                    <h3 class="text-primary">Prospres Overseas</h3>
+                    <p>A division of Prosper Education Pvt. Ltd.</p>
+                </span>
+            </div>
+            <div class="m-3">
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter mx-1"></span>
+                <span class="bi bi-linkedin mx-2"></span>
+                <span class="bi bi-google"></span>
+            </div>
+        </div>
+        <nav>
+            <span>Home</span>
+            <span>Countries</span>
+            <span>For Students</span>
+            <span>For Universities</span>
+            <span>Online Store</span>
+            <span>Immigration</span>
+            <span>Blog</span>
+            <span>Gallery</span>
+            <span>Associate</span>
+            <span>Franchise</span>
+            <span>Careers</span>
+            <span>Contact Us</span>
+            <span>Login</span>
+            <span class="bi bi-search"></span>
+        </nav>
+    </header>
+    <section>
+        <div class="bag">
+            <div class="shde">
+                <div class="pop text-white">
+                    <h5 class="mt-2">Start Your Career Search</h5>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p>I am interested in:<input type="text" class="w-25"></p>
+                        
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mt-3">
+                        <p>Service in:<input type="text" class="w-25"></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bagr">
+            <div class="col-5">
+                <h4 class="mx-4">Overseas Education Consultants</h4>
+                <p class="m-5">Prosper Overseas is the Best Overseas Career Consultants In India, we have 12 branches across India. A flagship of Prosper Education Pvt Ltd, Prosper Overseas in India is a well-known overseas education consultant. Authorized Representative for more than 500 plus renowned institutions across the globe. Prosper Overseas is the trusted name in India & is well Recognized & Accredited by various High Commission & Visa Consulates.</p>
+            </div>
+            <div class="col-1 vertical-line"></div>
+            <div class="col-5">
+                <h4>Search a Course</h4>
+                <div class="mb-3 dropdown">
+                    <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Select a Country
+                    </button>
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Country 1</a></li>
+                        <li><a class="dropdown-item" href="#">Country 2</a></li>
+                        <li><a class="dropdown-item" href="#">Country 3</a></li>
+                    </ul>
+                </div>
+                <div class="mb-3 dropdown">
+                    <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Select Study Level
+                    </button>
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="#">Level 1</a></li>
+                        <li><a class="dropdown-item" href="#">Level 2</a></li>
+                        <li><a class="dropdown-item" href="#">Level 3</a></li>
+                    </ul>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control w-100">
+                </div>
+                <div class="mb-3 center-button">
+                    <button class="btn btn-warning">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-center text-primary m-3">Free Profile Verification</h2>
+            <p class="m-5">Prosper Overseas is the Best Overseas Career Consultants In India, we have 12 branches across India. A flagship of Prosper Education Pvt Ltd, Prosper Overseas in India is a well-known overseas education consultant. Authorized Representative for more than 500 plus renowned institutions across the globe. Prosper Overseas is the trusted name in India & is well Recognized & Accredited by various High Commission & Visa Consulates. Prosper Overseas is the Best Overseas Career Consultants In India, we have 12 branches across India. A flagship of Prosper Education Pvt Ltd, Prosper Overseas in India is a well-known overseas education consultant. Authorized Representative for more than 500 plus renowned institutions across the globe. Prosper Overseas is the trusted name in India & is well Recognized & Accredited by various High Commission & Visa Consulates.</p>
+        </div>
+        <div class="foot">
+            <div class="mx-5">
+                <h5>Upcoming Events</h5>
+            </div>
+            <div class="mx-3 dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Branch
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                    <li><a class="dropdown-item" href="#">Branch 1</a></li>
+                    <li><a class="dropdown-item" href="#">Branch 2</a></li>
+                    <li><a class="dropdown-item" href="#">Branch 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footr m-5">
+            <span><p>3000+<br>Universities Processed</p></span>
+            <span><p>100000+<br>Programs Available</p></span>
+            <span><p>21<br>Countries Represented</p></span>
+            <span><p>75000+<br>Students Counseled</p></span>
+            <span><p>100%<br>VISA Success Rate</p></span>
+            <span><p>90%<br>Students Referred</p></span>
+            <span><p>100%<br>Bank Loan Available</p></span>
+            </div>
+        </section>
+        <footer>
+            <div class="row2">
+                <div class="col">
+                    <h6>Company</h6>
+                    <p>Mission & Objectives</p>
+                    <p>About Prosper Overseas</p>
+                    <p>CMD Message</p>
+                    <p>Prosper Governance Policy</p>
+                    <p>Corporate</p>                
+                <p>Social Initiatives</p>
+            </div>
+            <div class="col">
+                <h6>Country Websites</h6>
+                <p>USA</p>
+                <p>Canada</p>
+                <p>Australia</p>
+                <p>UK</p>
+                <p>Ireland</p>
+                <p>New Zealand</p>
+                <p>Singapore</p>
+                <p>France</p>
+                <p>Switzerland</p>
+                <p>Malaysia</p>
+                <p>Cyprus</p>
+                <p>Dubai</p>
+                <p>Germany</p>
+                <p>Denmark</p>
+                <p>Holland</p>
+                <p>Italy</p>
+                <p>European Union</p>
+            </div>
+            <div class="col">
+                <h6>News & Events</h6>
+                <p>Prosper Overseas Events</p>
+                <p>Spot Admissions</p>
+                <p>Photo Gallery</p>
+                <p>Video Gallery</p>
+            </div>
+            <div class="col">
+                <h6>Useful Links</h6>
+                <p>Salient Features</p>
+                <p>Cost of Education</p>
+                <p>Blog</p>
+            </div>
+            <div class="col">
+                <h6>Online</h6>
+                <p>Registration</p>
+                <p>Feedback</p>
+                <p>Student Login</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
